@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_hunt"
+            android:icon="@drawable/ic_action_party"
+            android:title="HUNT" />
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_inbox"
+            android:icon="@drawable/ic_action_party"
+            android:title="Fiestas" />
+        <item
+            android:id="@+id/item_navigation_drawer_starred"
+            android:icon="@drawable/ic_action_party"
+            android:title="Antros" />
+        <item
+            android:id="@+id/item_navigation_drawer_sent_mail"
+            android:icon="@drawable/ic_action_party"
+            android:title="Bares" />
+        <item
+            android:id="@+id/item_navigation_drawer_drafts"
+            android:icon="@drawable/ic_action_party"
+            android:title="LGBT" />
+        <item
+            android:id="@+id/item_navigation_drawer_afteroffice"
+            android:icon="@drawable/ic_action_party"
+            android:title="After Office" />
+        <item
+            android:id="@+id/item_navigation_drawer_conciertos"
+            android:icon="@drawable/ic_action_party"
+            android:title="Conciertos" />
+    </group>
+
+    <item android:title="Subheader">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/ic_action_party"
+                android:title="Settings" />
+            <item
+                android:id="@+id/item_navigation_drawer_logout"
+                android:icon="@drawable/ic_action_party"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
